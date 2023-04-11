@@ -17,7 +17,7 @@ pipeline {
   {
     agent { label 'demo' }
     steps { 
-     git credentialsId: 'GitlabCred', url: 'https://github.com/Pramodpokuri/WEZVATECH-CICD.git'
+     git credentialsId: 'GitlabCred', url: 'https://<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>github.com/Pramodpokuri/WEZVATECH-CICD.git'
     }
   }
 
