@@ -17,7 +17,7 @@ pipeline {
   {
     agent { label 'demo' }
     steps { 
-     git credentialsId: 'GithubCred', url: 'https://github.com/Pramodpokuri/CICD.git'
+     git branch: '*/main', credentialsId: 'GithubCred', url: 'https://github.com/Pramodpokuri/CICD.git'
     }
   }
 
