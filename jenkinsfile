@@ -195,7 +195,7 @@ pipeline {
 		 build job: 'DeployBuild', parameters: [string(name: 'IMAGE', value: TAG), password(name: 'PASSWD', value: params.PASSWD)]
        }
     }
-  }
-
+  }  
+  
  }
 }
